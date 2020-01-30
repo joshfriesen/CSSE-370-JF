@@ -7,3 +7,5 @@ Test Cases
 
 Notes
 The pages are currently unplanned, but will be dedicated to nature pics
+
+one hover and one click element
