@@ -1,17 +1,69 @@
-ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #f1f1f1;
-    }
-li a1 {
-      display: block;
-      color: #000;
-      padding: 8px 16px;
-      text-decoration: none;
-    }
-li a1:hover {
-      background-color: #555;
-      color: white;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #006622;
+    padding: 30px;
+    
+}
+
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+    color: #e6ffee;
+}
+
+.wrapper .sidebar ul li:hover {
+      background-color: #00802b;
+      color: #003311;
+}
+
+.wrapper .sidebar ul li a:focus{
+    background-color: aqua;
+}
+
+
+.wrapper .main{
+    width: 100%;
+    margin-left: 200px;
+}
+
+[name="test"]{
+    width: 350;
+}
+
+#poemhead::first-line {
+    color: #00802b;
+}
+
+div > h1{
+    color: #003311;
+}
+
+body{
+    background: #F0FFF0;
 }
