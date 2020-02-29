@@ -1,11 +1,43 @@
     <!DOCTYPE html>
 <html>
   <head>    
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
-   <p>hello</p>   
+    <script src="webscrp.js"></script>
   </head>
 
-  <body>
+
+ 
+ <body>
+
+
+
+<div class="wrapper">
+  <div class="sidebar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page2.html">Poetry</a></li>
+    </ul>
+ </div>
+    
+    <div class = "main">
+      <h1>Poetry of the World</h1>
+        <img src="pics/poetry.jpg" name="test" alt="poetry" class="center" style="width:350px;height:400px;">
+      <h2><a href="https://www.poetryfoundation.org/poems/44389/as-kingfishers-catch-fire"><i>As Kingfishers Catch Fire</i></a></h2>
+      <h3><a href="https://www.poetryfoundation.org/poems/44402/the-windhover"><i>The Windhover</i></a></h3>
+      <h4><a href="https://www.poetryfoundation.org/poets/gerard-manley-hopkins">Gerard Manley Hopkins</a></h4>
+        
+        <button onclick="getTime()">Click for time!</button>
+        <p id="time" onclick="invisible('time');"></p>
+        <h5 id="mouse" onmouseover="funfun();" onmouseout="notnot();">Mouse Event</h5>
+    </div>    
+    
+</div>
+     
+     
+     
+
+      
   </body>
 
 </html>
