@@ -15,6 +15,12 @@ Phase 3 Test Cases
 10. No mobile sidescrolling
 11. Page looks decent in mobile format
 
+Phase 4 Test Cases
+12. external JS file exists
+13. button creates element when clicked
+14. button element deletes itself when clicked
+15. another element changes when mouse over
+
 
 Notes
 The pages are currently unplanned, but will be dedicated to poetry
