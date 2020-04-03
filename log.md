@@ -24,6 +24,10 @@ Phase 4 Test Cases
 Phase 5 Test Cases
 16. passes ANDI accessibility tests
 
+Phase 6 Test Cases 
+17. pulls weather data from api
+18. button displays current temp and gives user choice to request more data
+19. more data is shown when clicked by user, called from openweathermap
 
 Notes
 The pages are currently unplanned, but will be dedicated to poetry
