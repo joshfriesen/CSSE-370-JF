@@ -1,7 +1,7 @@
 window.onload=init;
 
 async function init(){
-	const api_url='http://api.openweathermap.org/data/2.5/weather?q=Fresno,us&APPID=87e3c3bb474cc0be0e7747a2d9d2f1fb&units=imperial';
+	const api_url='https://api.openweathermap.org/data/2.5/weather?q=Fresno,us&APPID=87e3c3bb474cc0be0e7747a2d9d2f1fb&units=imperial';
         const response = await fetch(api_url);
         const data = await response.json();
 	document.getElementById("dd").innerHTML = "Fresno temp is " + data.main.temp + "°F click for today's max temp";
@@ -33,7 +33,7 @@ function invisible(id){
 }
 
 async function getData(){
-    const api_url='http://api.openweathermap.org/data/2.5/weather?q=Fresno,us&APPID=87e3c3bb474cc0be0e7747a2d9d2f1fb&units=imperial';
+    const api_url='https://api.openweathermap.org/data/2.5/weather?q=Fresno,us&APPID=87e3c3bb474cc0be0e7747a2d9d2f1fb&units=imperial';
     const response = await fetch(api_url);
     const data = await response.json();
     document.getElementById("maxT").innerHTML = data.main.temp_max + "°F";
