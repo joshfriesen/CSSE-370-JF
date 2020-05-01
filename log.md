@@ -29,7 +29,12 @@ Phase 6 Test Cases
 18. button displays current temp and gives user choice to request more data
 19. more data is shown when clicked by user, called from openweathermap
 
+Phase 7 Test Cases
+20. Passes OWASP vulnerability check
+
+Phase 8 Test Cases
+21. React button "reacts" to user input
+
 Notes
-The pages are currently unplanned, but will be dedicated to poetry
-images are having trouble showing up online
+only vulnerabilities are server side
 one hover and one click element
